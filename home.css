@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgb(24, 23, 23);
+}
+
+.main-section{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.icon img{
+  width: 70px;
+  max-width: 100%;
+  cursor: pointer;
+  padding-top: 10px;
+  opacity: 0.7;
+  border-radius: 20%;
+}
+
+.service ul li{
+  list-style-type: none;
+  display: inline;
+}
+
+.service ul li a{
+  text-decoration: none;
+  color: white;
+  padding-top: 45px;
+  padding: 15px 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.service ul li a:hover{
+  color: rgb(211, 26, 119);
+}
+
+.bnt{
+  border: 1px solid transparent;
+  border-radius: 30px;
+  padding: 5px 15px;
+  background-color: rgb(211, 26, 119);
+}
+
+.bnt a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  transition: transform 4s;
+}
+
+.bnt:hover{
+  transform: scale(1.05);
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 8%;
+  padding-left: 1%;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+.content h4{
+  color: #fcfc;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.content h1{
+  margin: 20px 0px 20px;
+  color: white;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.content h3{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.newslatter form{
+  width: 340px;
+  max-width: 100%;
+  position: relative;
+}
+
+.newslatter form input:first-child{
+  padding: 15px 130px 14px 35px;
+  display: inline-block;
+  border: 1px solid rgb(211, 26, 119);
+  outline: none;
+  border-radius: 30px;
+}
+
+.newslatter form input:last-child{
+  position: absolute;
+  border: none;
+  display: inline-block;
+  outline: none;
+  box-shadow: 0px 0px 5px #000 0px 0px 15px #858585;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: rgb(211, 26, 119);
+  color: white;
+  top: 6px;
+  right: 7px;
+}
+
+span{
+  color: rgb(211, 26, 119);
+}
